@@ -3591,41 +3591,43 @@ msgid ""
 "    [1:Click here to sign in] before saving (opens in new window)."
 msgstr "あなたはサインインしていないので、あなたのIPアドレスが使用されます。\n保存する前に[1:ここをクリックしてサインインして下さい] (別ウィンドウが開きます)。"
 
+#: ckan/templates/package/new_package_form.html:309
+msgid "[1:Important:] By submitting content, you agree to release your contributions under the [2:Open Database License]. Please [3:refrain] from editing this page if you are [4:not] happy to do this."
+msgstr "[1:重要事項:] データの投稿と同時に、あなたはそのデータが[2:Open Database License]で公開されることに同意することになります。もし、[4:同意できない]場合は、[3:投稿しない]ようにしてください。"
 
 #: ckan/templates/package/new_package_form.html:309
-msgid "Important:"
-msgstr "重要事項:"
-
-
-#: ckan/templates/package/new_package_form.html:309
-msgid ""
-"By submitting content, you agree to release your contributions under the"
-msgstr "このデータは、以下のライセンスのもとで提供されます :"
-
+#msgid "Important:"
+#msgstr "重要事項:"
 
 #: ckan/templates/package/new_package_form.html:309
-msgid ". Please"
-msgstr "もしあなたが"
+#msgid ""
+#"By submitting content, you agree to release your contributions under the"
+#msgstr "このデータは、以下のライセンスのもとで提供されます :"
 
 
 #: ckan/templates/package/new_package_form.html:309
-msgid "refrain"
-msgstr "望んでいなければ"
+#msgid ". Please"
+#msgstr "もしあなたが"
 
 
 #: ckan/templates/package/new_package_form.html:309
-msgid "from editing this page if you are"
-msgstr "このページを"
+#msgid "refrain"
+#msgstr "望んでいなければ"
 
 
 #: ckan/templates/package/new_package_form.html:309
-msgid "not"
-msgstr "修正しないように"
+#msgid "from editing this page if you are"
+#msgstr "このページを"
 
 
 #: ckan/templates/package/new_package_form.html:309
-msgid "happy to do this."
-msgstr "お願いします。"
+#msgid "not"
+#msgstr "修正しないように"
+
+
+#: ckan/templates/package/new_package_form.html:309
+#msgid "happy to do this."
+#msgstr "お願いします。"
 
 
 #: ckan/templates/package/read.html:14
