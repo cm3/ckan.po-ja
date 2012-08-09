@@ -1906,30 +1906,6 @@ msgstr "プレビュー"
 #: ckanext/organizations/templates/organization_package_form.html:93
 #: ckanext/publisher_form/templates/dataset_form.html:90
 #: ckanext/publisher_form/templates/publisher_form.html:42
-#msgid "You can use"
-#msgstr "使用できます"
-
-
-#: ckan/templates/_util.html:18
-#: ckanext/organizations/templates/organization_package_form.html:93
-#: ckanext/publisher_form/templates/dataset_form.html:90
-#: ckanext/publisher_form/templates/publisher_form.html:42
-#msgid "Markdown formatting"
-#msgstr "Markdown フォーマット"
-
-
-#: ckan/templates/_util.html:18
-#: ckanext/organizations/templates/organization_package_form.html:93
-#: ckanext/publisher_form/templates/dataset_form.html:90
-#: ckanext/publisher_form/templates/publisher_form.html:42
-#msgid "here."
-#msgstr "ここ。"
-
-
-#: ckan/templates/_util.html:18
-#: ckanext/organizations/templates/organization_package_form.html:93
-#: ckanext/publisher_form/templates/dataset_form.html:90
-#: ckanext/publisher_form/templates/publisher_form.html:42
 msgid "You can use [1:Markdown formatting] here."
 msgstr "ここでは[1:Markdown フォーマット]が使えます。"
 
@@ -3243,15 +3219,6 @@ msgstr "オープンデータハンドブック"
 msgid "Who else is here?"
 msgstr "ここで提供されているデータ例"
 
-
-#: ckan/templates/home/index.html:75
-#msgid "has"
-#msgstr "has"
-
-#: ckan/templates/home/index.html:75
-#msgid "datasets."
-#msgstr "データセット"
-
 #: ckan/templates/home/index.html:75
 msgid "%(title)s has %(packages)s datasets."
 msgstr "%(title)s には %(packages)s 個のデータセットがあります。"
@@ -3313,13 +3280,17 @@ msgstr "セーブ前(新しいウィンドウに開く)"
 
 
 #: ckan/templates/package/edit_form.html:31
+#: ckan/templates/package/new_package_form.html:309
 #: ckanext/organizations/templates/organization_package_form.html:317
 #: ckanext/publisher_form/templates/dataset_form.html:246
 msgid ""
 "[1:Important:] By submitting content, you agree to release your "
 "contributions under the [2:Open Database License]. Please [3:refrain] from "
 "editing this page if you are [4:not] happy to do this."
-msgstr "[1:重要:] 内容を提出することで、あなたは [2:Open Database License]のもとであなたの貢献を投稿することに同意したことになります。もしそれがあなたにとって嬉しいことで[4:なければ]、このページを編集するのを[3:差し控えて]下さい。"
+msgstr ""
+"[1:重要:] 内容を投稿することで、あなたは [2:Open Database License]のもとで"
+"投稿することに同意したことになります。もしそれがあなたにとって"
+"望ましいことで[4:なければ]、このページを編集するのを[3:差し控えて]下さい。"
 
 
 #: ckan/templates/package/editresources.html:6
@@ -3593,44 +3564,6 @@ msgid ""
 "Since you have not signed in this will just be your IP address.\n"
 "    [1:Click here to sign in] before saving (opens in new window)."
 msgstr "あなたはサインインしていないので、あなたのIPアドレスが使用されます。\n保存する前に[1:ここをクリックしてサインインして下さい] (別ウィンドウが開きます)。"
-
-#: ckan/templates/package/new_package_form.html:309
-msgid "[1:Important:] By submitting content, you agree to release your contributions under the [2:Open Database License]. Please [3:refrain] from editing this page if you are [4:not] happy to do this."
-msgstr "[1:重要事項:] データの投稿と同時に、あなたはそのデータが[2:Open Database License]で公開されることに同意することになります。もし、[4:同意できない]場合は、[3:投稿しない]ようにしてください。"
-
-#: ckan/templates/package/new_package_form.html:309
-#msgid "Important:"
-#msgstr "重要事項:"
-
-#: ckan/templates/package/new_package_form.html:309
-#msgid ""
-#"By submitting content, you agree to release your contributions under the"
-#msgstr "このデータは、以下のライセンスのもとで提供されます :"
-
-
-#: ckan/templates/package/new_package_form.html:309
-#msgid ". Please"
-#msgstr "もしあなたが"
-
-
-#: ckan/templates/package/new_package_form.html:309
-#msgid "refrain"
-#msgstr "望んでいなければ"
-
-
-#: ckan/templates/package/new_package_form.html:309
-#msgid "from editing this page if you are"
-#msgstr "このページを"
-
-
-#: ckan/templates/package/new_package_form.html:309
-#msgid "not"
-#msgstr "修正しないように"
-
-
-#: ckan/templates/package/new_package_form.html:309
-#msgid "happy to do this."
-#msgstr "お願いします。"
 
 
 #: ckan/templates/package/read.html:14
